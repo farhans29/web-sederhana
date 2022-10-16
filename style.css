@@ -1,12 +1,13 @@
 body, html {
+  font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
   background-image: url("https://images.wallpaperscraft.com/image/single/pond_water_hills_393814_1920x1080.jpg");
   height: 150%;
 }
-.container{
+
+.container, .top-container, .mid-container{
   width:1500px; 
   height:auto;
-  /* margin: 50px; */
   padding: 50px; 
   display:flex; 
   background-color:antiquewhite;  
@@ -14,4 +15,18 @@ body, html {
   flex-wrap:wrap; 
   justify-content:center;
   align-items:center;
+}
+
+.footer{
+height: 65px;
+align-items:flex-start; 
+position:fixed;
+margin:0px;
+padding: 20px 0px 0px 10px;
+bottom:0; 
+left:0;
+width: 100%;
+background-color:#e3f2fd;
+color: white;
+text-align: left;
 }
