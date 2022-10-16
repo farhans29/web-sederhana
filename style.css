@@ -1,7 +1,7 @@
 body, html {
   scroll-behavior: smooth;
   background-image: url("https://images.wallpaperscraft.com/image/single/pond_water_hills_393814_1920x1080.jpg");
-  height: 2000px;
+  height: 150%;
 }
 .container{
   width:1500px; 
